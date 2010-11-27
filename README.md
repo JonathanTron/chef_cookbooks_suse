@@ -15,8 +15,8 @@ This means, for my usage, installing and configuring:
   * Some base package needed for Git/RVM and Ruby installation
   * [Git](http://git-scm.com/) from source
   * [RVM](http://rvm.beginrescueend.com) system wide installation
-  * [RubyEE](http://www.rubyenterpriseedition.com/)
-    * 1.8.7-2010.02 on SLES 10.1 because 1.9.2-p0 has a bug on this specific version which do not allow forking (which is required for chef and most ruby dev)
+  * Ruby
+    * [RubyEE](http://www.rubyenterpriseedition.com/) 1.8.7-2010.02 on SLES 10.1 because 1.9.2-p0 has a bug on this specific version which do not allow forking (which is required for chef and most ruby dev)
     * 1.9.2-p0 on SLES 11.0
   * Chef in @global gemset
 
