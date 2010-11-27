@@ -1,0 +1,3 @@
+if ($request_method ~ ^PROPFIND|REPORT$ ) {
+  return 403;
+}
