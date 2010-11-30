@@ -3,8 +3,8 @@ Opscode Chef Cookbooks to use with Suse Linux
 
 Those cookbooks are meant to be used (and have been tested) on:
 
-  * Suse Linux Enterprise Server 10.1 SP2 (SLES 10.1)
-  * Suse Linux Enterprise Server 11.0 SP2 (SLES 10.2)
+  * Suse Linux Enterprise Server 10 SP2 (SLES 10.2)
+  * Suse Linux Enterprise Server 11 SP2 (SLES 11.2)
 
 Bootstrap
 =========
@@ -16,8 +16,8 @@ This means, for my usage, installing and configuring:
   * [Git](http://git-scm.com/) from source
   * [RVM](http://rvm.beginrescueend.com) system wide installation
   * Ruby
-    * [RubyEE](http://www.rubyenterpriseedition.com/) 1.8.7-2010.02 on SLES 10.1 because 1.9.2-p0 has a bug on this specific version which do not allow forking (which is required for chef and most ruby dev)
-    * 1.9.2-p0 on SLES 11.0
+    * [RubyEE](http://www.rubyenterpriseedition.com/) 1.8.7-2010.02 on SLES 10.2 because 1.9.2-p0 has a bug on this specific version which do not allow forking (which is required for chef and most ruby dev)
+    * 1.9.2-p0 on SLES 11.2
   * Chef in @global gemset
 
 Recipes
