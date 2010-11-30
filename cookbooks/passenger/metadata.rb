@@ -30,3 +30,18 @@ attribute "passenger/rvm_gemset",
   :display_name => "Passenger RVM Gemset",
   :description => "Passenger RVM Gemset to install",
   :default => "global"
+  
+attribute "passenger/pool_idle_time",
+  :display_name => "Passenger pool_idle_time",
+  :description => "Passenger pool_idle_time to use",
+  :default => 300
+
+attribute "passenger/max_pool_size",
+  :display_name => "Passenger max_pool_size",
+  :description => "Passenger max_pool_size to use",
+  :default => 6
+
+attribute "passenger/max_instances_per_app",
+  :display_name => "Passenger max_instances_per_app",
+  :description => "Passenger max_instances_per_app to use",
+  :default => 0

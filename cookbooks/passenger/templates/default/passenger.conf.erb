@@ -1,2 +1,6 @@
+passenger_pool_idle_time <%= node[:passenger][:pool_idle_time] %>;
+passenger_max_instances_per_app <%= node[:passenger][:max_instances_per_app] %>;
+passenger_max_pool_size <%= node[:passenger][:max_pool_size] %>;
+
 passenger_root /usr/local/rvm/gems/<%= node[:passenger][:rvm_ruby_version] %>@<%= node[:passenger][:rvm_gemset] %>/gems/passenger-<%= node[:passenger][:version] %>;
 passenger_ruby /usr/local/rvm/wrappers/<%= node[:passenger][:rvm_ruby_version] %>@<%= node[:passenger][:rvm_gemset] %>/ruby;
